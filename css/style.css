@@ -1,0 +1,110 @@
+* {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(243, 227, 206);
+}
+
+.nav {
+  display: block;
+  background: rgb(65, 65, 65);
+}
+
+.header {
+  height: 75px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(46, 52, 69);
+}
+
+.header h1 {
+  color: rgb(156, 169, 196);
+  padding: 0px;
+  margin: 0px;
+  background: rgb(46, 52, 69);
+}
+.about {
+  text-align: center;
+  height: 500px;
+  background: rgb(65, 65, 65);
+}
+
+.about img {
+  padding-top: 50px;
+  height: 300px;
+  border-radius: 0px;
+}
+
+.mission {
+  padding: 10px;
+}
+
+.president {
+  text-align: center;
+}
+
+.president img {
+  width: 300px;
+}
+
+.officers {
+  padding: 25px 0;
+  background: rgb(46, 52, 69);
+  text-align: center;
+}
+
+.officers h2,
+.officers span,
+.officers h3 {
+  padding: 10px 0;
+  color: rgb(156, 169, 196);
+}
+
+.officer-position {
+  background: rgb(46, 52, 69);
+  float: left;
+  width: 33.3333%;
+}
+
+.officer-position img {
+  padding-top: 10px;
+  width: 200px;
+}
+
+section .partners {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: rgb(65, 65, 65);
+}
+
+.partners {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgb(65, 65, 65);
+  text-align: center;
+  clear: both;
+}
+
+.partner {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: rgb(65, 65, 65);
+  text-align: center;
+  width: 33.3333%;
+  float: left;
+}
+
+.partners h2 h4 {
+  color: white;
+}
+
+.partner img {
+  width: 166px;
+}
+
+img {
+  border-radius: 50%;
+}
