@@ -30,7 +30,7 @@ section.header h1 {
 .about {
   padding-top: 10px;
   text-align: center;
-  height: 500px;
+  height: 550px;
   background: rgb(65, 65, 65);
 }
 
@@ -115,4 +115,10 @@ img {
 
 section {
   border: 1px solid white;
+}
+
+.tradingview-widget-container {
+  padding-top: 15px;
+  margin: auto;
+  display: inline-block;
 }
