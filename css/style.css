@@ -5,6 +5,9 @@
   color: rgb(243, 227, 206);
 }
 
+html {
+  background: rgb(65, 65, 65);
+}
 .nav {
   display: block;
   background: rgb(65, 65, 65);
@@ -33,6 +36,7 @@ section.header h1 {
 
 .about img {
   padding-top: 50px;
+  width: 500px;
   height: 300px;
   border-radius: 0px;
 }
@@ -43,6 +47,7 @@ section.header h1 {
 
 .president {
   text-align: center;
+  background: rgb(46, 52, 69);
 }
 
 .president img {
@@ -97,10 +102,6 @@ section .partners {
   text-align: center;
   width: 33.3333%;
   float: left;
-}
-
-.partners h2 h4 {
-  color: white;
 }
 
 .partner img {
