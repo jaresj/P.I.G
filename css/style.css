@@ -13,7 +13,9 @@
 .officers h3,
 .officer-position,
 .header,
-section.header h1 {
+section.header h1,
+.officers img,
+.header img {
   background: rgb(46, 52, 69);
 }
 
@@ -31,9 +33,13 @@ section.header h1 {
 }
 
 .header {
-  height: 75px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.header img {
+  border-radius: 0%;
+  margin-top: 5px;
 }
 
 section.header h1 {
@@ -43,7 +49,6 @@ section.header h1 {
 }
 .about {
   padding-top: 10px;
-  height: 550px;
 }
 
 .about img {
@@ -120,4 +125,19 @@ section {
   padding-top: 15px;
   margin: auto;
   display: inline-block;
+}
+
+@media screen and (max-width: 650px) {
+  .officer-position {
+    width: 100%;
+  }
+
+  .partner {
+    width: 50%;
+  }
+
+  .president img,
+  .officer-position img {
+    width: 166px;
+  }
 }
